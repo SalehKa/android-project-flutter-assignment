@@ -1,31 +1,34 @@
 Question 1:
-	Widgets usually expose controllers to allow the developer granular control
+- Widgets usually expose controllers to allow the developer granular control
 	over certain features. You’ve already used one when you implemented
 	TextFields in the previous assignment (Remember?).
 	Read this thread and then go to snapping_sheet’s documentation.
 	Answer: What class is used to implement the controller pattern in this library?
 	What features does it allow the developer to control?
+
 Answer:
-	The class that is used to implement the controller pattern in the library is
+- The class that is used to implement the controller pattern in the library is
 	the SnappingSheetController.
 	It allows the developer to control the snap positions of the snapping sheet,
 	In addition, it has the ability to change the snap position by snapToPosition.
 	
 Question 2:
-	The library allows the bottom sheet to snap into position with various different
+- The library allows the bottom sheet to snap into position with various different
 	animations. What parameter controls this behavior?
+
 Answer:
-	The parameter that allows this behavior is snappingCurve, it comes with other auxiliary
+- The parameter that allows this behavior is snappingCurve, it comes with other auxiliary
 	parameters such as positionPixel, snappingDuration, positionFactor, etc..
 	
 Question 3:
-	(This question does not directly relate to the previous ones). Read the
+- (This question does not directly relate to the previous ones). Read the
 	documentation of InkWell and GestureDetector. Name one advantage of
 	InkWell over the latter and one advantage of GestureDetector over the first.
+
 Answer:
-	Inkwell's advantage over GestureDetector:
+- Inkwell's advantage over GestureDetector:
 		The advantage is that Inkwell is a rectangle area of Material that responds
 		to ink splashes, so it has effects such as ripple effect tap.
-	GestureDetector's advantage over Inkwell:
+- GestureDetector's advantage over Inkwell:
 		It offers a more broad set of gesture events (like dragging), and that it doesn't 
 		need to have a material ancestor
